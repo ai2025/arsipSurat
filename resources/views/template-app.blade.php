@@ -32,18 +32,18 @@
         <div class="row flex-nowrap">
             <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 border-end border-2 border-secondary">
                 <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-black min-vh-100">
-                    <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-black text-decoration-none">
+                    <a href="{{ route('dash') }}" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-black text-decoration-none">
                         <span class="fs-5 d-none d-sm-inline">Menu</span>
                             <hr>
                     </a>
                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                         <li class="nav-item">
-                            <a href="#" class="nav-link align-middle px-0">
+                            <a href="{{ route('dash') }}" class="nav-link align-middle px-0">
                                 <i class="fas fa-star"></i> <span class="ms-1 d-none d-sm-inline">Arsip</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link align-middle px-0">
+                            <a href="{{ route('about') }}" class="nav-link align-middle px-0">
                                 <i class="fas fa-exclamation-triangle"></i> <span class="ms-1 d-none d-sm-inline">About</span>
                             </a>
                         </li>
